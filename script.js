@@ -1,6 +1,6 @@
 const sheetSelect = document.getElementById('sheetSelect');
 let workbookData = null;
-const wynikiZawodow = "Mistrz_Karkonoszy_po_runda3.xlsx";
+const wynikiZawodow = "Wyniki_MKarkonoszy.xlsx";
 
 window.addEventListener('DOMContentLoaded', () => {
     fetch(wynikiZawodow)
